@@ -18,7 +18,7 @@ jobs:
             key: "npm-packages"
             paths:
               - /src/node_modules
-        - run npm lint
+        - run: npm lint
 
   test:
     docker:
